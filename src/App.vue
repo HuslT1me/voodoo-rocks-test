@@ -80,6 +80,8 @@ const filteredPost = computed(() => {
 @use "@/styles/variables";
 
 .search {
+  min-height: 100vh;
+  padding-bottom: 40px; 
   display: flex;
   row-gap: 20px;
   flex-direction: column;
