@@ -1,0 +1,22 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-body: #e0f2f1;
+  --color-border: #ababab;
+  --color-card-title: #2a27a5;
+  --color-hover: #3561f3;
+  --color-author: gray;
+  --font-size-body: 1rem;
+
+  --font-accent: "roboto", sans-serif;
+
+  --rounded-base: 5px;
+
+  --container-width: 1200px;
+  --container-padding-x: 20px;
+
+  --border: 1px solid var(--color-border);
+  --input-height: 40px;
+
+  --transition-duration: 0.2s;
+}

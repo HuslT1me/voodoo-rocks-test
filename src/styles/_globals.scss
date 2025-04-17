@@ -1,0 +1,22 @@
+body {
+  background-color: var(--color-body);
+  color: var(--color-black);
+  font-size: var(--font-size-body);
+  font-family: var(--font-accent);
+}
+
+:focus-visible {
+  transition-duration: 0s !important;
+  outline: 3px dashed var(--color-black);
+  outline-offset: 4px;
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+  transition-duration: var(--transition-duration);
+}
